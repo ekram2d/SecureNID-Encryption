@@ -102,7 +102,7 @@ def process_id_image(image_path, languages=['en', 'bn'], show_plot=True):
         return None, None, None
 
 if __name__ == "__main__":
-    image_path = "/content/nid1.jpg"  # Replace with your image path
+    image_path = "nid1.jpg"  # Replace with your image path
     original, modified, decrypted = process_id_image(image_path)
 
     # Provide download links
